@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\paras\Downloads\telco_churn.csv.csv")
+df = pd.read_csv(r"telco_churn.csv.csv")
 
 # Drop customerID and missing values
 df.drop(['customerID'], axis=1, inplace=True)
